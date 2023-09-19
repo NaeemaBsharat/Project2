@@ -36,8 +36,3 @@ jobs:
         env:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Build
-      run: |
-        npm install
-        gulp
