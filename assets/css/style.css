@@ -25,6 +25,9 @@ a {
     text-decoration: none;
 }
 
+/*code testing*/
+
+
 
 /* header */
 .header {
@@ -275,12 +278,14 @@ a {
 
 /* portfolio */
 
+
+
 .portfolio {
     overflow: hidden;
 
 }
 
-.portfolio .project {
+ .portfolio .project {
     width: 33.33%;
     float: left;
     overflow: hidden;
@@ -288,7 +293,49 @@ a {
     position: relative;
 }
 
-.portfolio .project::after {
+
+
+
+.gallery-item {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+ 
+   
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*.portfolio .project::after {
     content: '';
     left: 100%;
     position: absolute;
@@ -311,7 +358,7 @@ a {
 
 }
 
-.portfolio .project .project-content h2 {
+ .portfolio .project .project-content h2 {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: uppercase;
     color: #FFFFFF80;
@@ -328,9 +375,9 @@ a {
 .portfolio .project:hover .project-content h2 {
     left: 0%;
 
-}
+}*/
 
-.portfolio .project .project-content P {
+ /*.portfolio .project .project-content P {
     font-size: 19px;
     color: #FFFFFF;
     font-size: 21px;
@@ -345,7 +392,7 @@ a {
 .portfolio .project:hover .project-content p {
     left: 0%;
 
-}
+}*/
 
 /* Call-to-action */
 .Call-to-action {
