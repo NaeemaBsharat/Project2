@@ -13,6 +13,7 @@ galleryItems.forEach(item => {
         lightboxImage.setAttribute('src', imageUrl);
         lightbox.style.display = 'block';
     });
+    
 });
 
 closeLightbox.addEventListener('click', () => {
