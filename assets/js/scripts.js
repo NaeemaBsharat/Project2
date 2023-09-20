@@ -7,6 +7,7 @@ const lightboxImage = document.getElementById('lightbox-image');
 const closeLightbox = document.querySelector('.close');
 
 galleryItems.forEach(item => {
+    
     item.addEventListener('click', e => {
         e.preventDefault();
         const imageUrl = item.getAttribute('href');
