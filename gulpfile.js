@@ -14,7 +14,7 @@ gulp.task('minify-js', function () {
     return gulp
         .src('assets/*.js') // Path to your JavaScript files
         .pipe(uglify())
-        .pipe(gulp.dest('assets/*.js')); 
+        .pipe(gulp.dest('assets/js')); 
 });
 
 // Default task
