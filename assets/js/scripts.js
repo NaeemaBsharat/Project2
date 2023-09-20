@@ -13,9 +13,7 @@ galleryItems.forEach(item => {
         const imageUrl = item.getAttribute('href');
         lightboxImage.setAttribute('src', imageUrl);
         lightbox.style.display = 'block';
-    });
-     
-    
+    });    
 });
 
 closeLightbox.addEventListener('click', () => {
